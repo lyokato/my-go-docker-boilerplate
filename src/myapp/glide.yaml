@@ -1,0 +1,5 @@
+package: .
+import:
+- package: github.com/gin-gonic/gin
+- package: gopkg.in/godo.v2
+- package: gopkg.in/yaml.v2
