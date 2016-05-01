@@ -16,8 +16,8 @@ var targetFiles = []string{
 
 var targetDirTemplate = "src/%s"
 
-var origin = "proj"
-var modified = "myapp"
+var origin = "myapp"
+var modified = "yourapp"
 
 func renameProjectNameInFile(filePath string) error {
 	stat, err := os.Stat(filePath)
