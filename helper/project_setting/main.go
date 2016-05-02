@@ -10,7 +10,8 @@ import (
 
 var targetFiles = []string{
 	"./build/web/Dockerfile",
-	"./build/web.sh",
+	"./build/web/image.sh",
+	"./build/web/app.sh",
 	"./develop/web/docker-compose.yaml",
 }
 
