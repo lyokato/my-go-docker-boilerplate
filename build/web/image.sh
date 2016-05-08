@@ -3,5 +3,5 @@
 cd `dirname $0`
 cd ../../
 cp ./build/web/Dockerfile .
-docker build -t lyokato/myapp:arukas9 .
+docker build -t lyokato/myapp:arukas12 .
 

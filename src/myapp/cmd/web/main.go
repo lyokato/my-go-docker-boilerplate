@@ -6,10 +6,15 @@ import (
 
 func main() {
 	r := gin.Default()
+	r.GET("/", func(c *gin.Context) {
+		c.JSON(200, gin.H{
+			"hello": "world",
+		})
+	})
 	r.GET("/ping", func(c *gin.Context) {
 		c.JSON(200, gin.H{
 			"ping": "ping",
 		})
 	})
-	r.Run()
+	r.Run(":80")
 }

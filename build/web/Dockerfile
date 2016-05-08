@@ -4,5 +4,5 @@ MAINTAINER Lyo Kato <lyo.kato@gmail.com>
 
 ADD bin/web /bin/web
 
-EXPOSE 8080
+EXPOSE 80
 CMD ["/bin/web"]
